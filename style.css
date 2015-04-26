@@ -1,0 +1,25 @@
+/*
+ Theme Name:   Rookie Child Theme Template
+ Theme URI:    https://github.com/ThemeBoy/Rookie-Child
+ Version:      1.0
+ Description:  This is a child theme template for Rookie. Use it to create your own SportsPress plugin compatible WordPress theme.
+ Author:       ThemeBoy
+ Author URI:   http://themeboy.com
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Template:     rookie
+*/
+
+/* General Customization */
+
+/* Smartphone */
+@media screen and (max-width: 600px) {
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+}
+
+/* Desktop */
+@media screen and (min-width: 1025px) {
+}
