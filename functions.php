@@ -1,8 +1,16 @@
 <?php
 /**
- * Add or remove actions here to control the output of scripts and stylesheets.
+ * Rookie Child functions and definitions
+ *
+ * @package Rookie_Child
  */
-function rookie_child_scripts() {
-	remove_action( 'wp_print_scripts', 'rookie_custom_colors', 30 );
+
+/**
+ * Set the content width based on the theme's design and stylesheet.
+ */
+if ( ! isset( $content_width ) ) {
+	$content_width = 620; /* pixels */
 }
-add_action( 'wp_enqueue_scripts', 'rookie_child_scripts', 11 );
+if ( ! isset( $full_content_width ) ) {
+	$full_content_width = 960; /* pixels */
+}
